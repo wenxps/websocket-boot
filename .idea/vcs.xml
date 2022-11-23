@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stomp-all-ws" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tomcat-websocket" vcs="Git" />
   </component>
 </project>
