@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db1e4714-568a-432d-b6e2-b1c94f146cc1" name="变更" comment="基于tomcat websocket 实现聊天 3" />
+    <list default="true" id="db1e4714-568a-432d-b6e2-b1c94f146cc1" name="变更" comment="基于 SpringWebsocket 实现单聊群聊接口" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,17 +59,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "G:/XH/项目/code/websocket-boot",
     "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "10485114b0ee907d11cc6c3ead7d5f33"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\XH\项目\code\websocket-boot" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\XH\项目\code\websocket-boot" />
       <recent name="G:\XH\项目\code\websocket-boot\tomcat-websocket\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SpringWebsocketApplication">
+    <configuration name="SpringWebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-websocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weniya.socket.springwebsocket.SpringWebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TomcatWebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tomcat-websocket" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.weniya.socket.tomcatwebsocket.TomcatWebsocketApplication" />
@@ -86,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669105681275</updated>
-      <workItem from="1669105687141" duration="6013000" />
+      <workItem from="1669105687141" duration="8355000" />
+      <workItem from="1669198326046" duration="2515000" />
     </task>
     <task id="LOCAL-00001" summary="基于tomcat websocket 实现聊天">
       <created>1669117370342</created>
@@ -151,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669118030025</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="基于 SpringWebsocket 实现单聊群聊接口">
+      <created>1669200777680</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669200777680</updated>
+    </task>
+    <task id="LOCAL-00011" summary="基于 SpringWebsocket 实现单聊群聊接口">
+      <created>1669200796242</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669200796242</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +192,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -174,6 +216,7 @@
     <MESSAGE value="基于tomcat websocket 实现聊天" />
     <MESSAGE value="基于tomcat websocket 实现聊天 2" />
     <MESSAGE value="基于tomcat websocket 实现聊天 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于tomcat websocket 实现聊天 3" />
+    <MESSAGE value="基于 SpringWebsocket 实现单聊群聊接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于 SpringWebsocket 实现单聊群聊接口" />
   </component>
 </project>

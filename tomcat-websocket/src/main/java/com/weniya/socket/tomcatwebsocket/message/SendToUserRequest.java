@@ -22,6 +22,4 @@ public class SendToUserRequest implements Message {
      */
     private String content;
     
-    // ... 省略 set/get 方法
-     
 }

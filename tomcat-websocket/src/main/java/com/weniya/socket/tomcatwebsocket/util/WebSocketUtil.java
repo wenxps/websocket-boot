@@ -139,7 +139,7 @@ public class WebSocketUtil {
         }
         RemoteEndpoint.Basic basic = session.getBasicRemote();
         if (basic == null) {
-            LOGGER.error("[sendTextMessage][session 的  为 null]");
+            LOGGER.error("[sendTextMessage][session 的 为 null]");
             return;
         }
         try {
