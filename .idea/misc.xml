@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/tomcat-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/spring-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/stomp-all-ws/pom.xml" />
+        <option value="$PROJECT_DIR$/stomp-only-ws/pom.xml" />
       </list>
     </option>
   </component>

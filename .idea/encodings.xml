@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/spring-websocket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stomp-all-ws/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stomp-all-ws/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stomp-only-ws/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stomp-only-ws/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat-websocket/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat-websocket/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

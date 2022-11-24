@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-websocket/spring-websocket.iml" filepath="$PROJECT_DIR$/spring-websocket/spring-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/stomp-all-ws/stomp-all-ws.iml" filepath="$PROJECT_DIR$/stomp-all-ws/stomp-all-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stomp-only-ws/stomp-only-ws.iml" filepath="$PROJECT_DIR$/stomp-only-ws/stomp-only-ws.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-websocket/tomcat-websocket.iml" filepath="$PROJECT_DIR$/tomcat-websocket/tomcat-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/websocket-boot.iml" filepath="$PROJECT_DIR$/.idea/websocket-boot.iml" />
     </modules>

@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="stomp-only-ws" />
+        <module name="stomp-all-ws" />
         <module name="tomcat-websocket" />
         <module name="spring-websocket" />
-        <module name="stomp-all-ws" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-websocket" target="1.8" />
       <module name="stomp-all-ws" target="1.8" />
+      <module name="stomp-only-ws" target="1.8" />
       <module name="tomcat-websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>

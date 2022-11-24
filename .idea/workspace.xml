@@ -5,31 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db1e4714-568a-432d-b6e2-b1c94f146cc1" name="变更" comment="基于 SpringWebsocket 实现单聊群聊接口">
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/main/java/com/weniya/chat/StompAllWsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/main/java/com/weniya/chat/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/main/java/com/weniya/chat/controller/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/main/java/com/weniya/chat/model/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/main/resources/static/chat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stomp-all-ws/src/test/java/com/weniya/chat/StompAllWsApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/TomcatWebsocketApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/config/WebSocketConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/handler/AuthMessageHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/handler/MessageHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/handler/SendToAllHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/handler/SendToOneHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/AuthRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/AuthResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/SendResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/SendToAllRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/SendToOneRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/SendToUserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/message/UserJoinNoticeRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/util/WebSocketUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-websocket/target/classes/com/weniya/socket/tomcatwebsocket/websocket/WebsocketServerEndpoint.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/java/com/weniya/chat/StompAllWsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/java/com/weniya/chat/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/java/com/weniya/chat/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/java/com/weniya/chat/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/java/com/weniya/chat/model/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/java/com/weniya/chat/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/main/resources/static/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stomp-only-ws/src/test/java/com/weniya/chat/StompAllWsApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +38,7 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/stomp-all-ws" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -92,7 +78,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "10485114b0ee907d11cc6c3ead7d5f33"
+    "spring.configuration.checksum": "92b809b77a570438f0ddcf34cf8f0504"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,10 +90,17 @@
       <recent name="G:\XH\项目\code\websocket-boot\tomcat-websocket\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.StompAllWsApplication">
+  <component name="RunManager" selected="Spring Boot.StompAllWsApplication (1)">
     <configuration name="SpringWebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-websocket" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.weniya.socket.springwebsocket.SpringWebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StompAllWsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stomp-only-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weniya.chat.StompAllWsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +130,7 @@
       <updated>1669105681275</updated>
       <workItem from="1669105687141" duration="8355000" />
       <workItem from="1669198326046" duration="6697000" />
+      <workItem from="1669272750977" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="基于tomcat websocket 实现聊天">
       <created>1669117370342</created>
